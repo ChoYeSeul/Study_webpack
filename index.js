@@ -1,3 +1,7 @@
+// 참고자료 ㅣ https://velog.io/@kim-jaemin420/CRA%EC%9D%98-%EC%9B%90%EB%A6%ACbabel-webpack-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0#%EC%B0%B8%EA%B3%A0%EB%A1%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-webpack-%EC%A7%80%EC%8B%9D
+
+// 참고자료 | https://velog.io/@_uchanlee/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%9B%B9%ED%8C%A9%EC%9C%BC%EB%A1%9C-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0without-CRA
+
 // 1. npm 설치
 // -> webpack을 사용하려면 node(== 자바스크립트 실행기)가 필요하다.
 // -> $ npm init -y

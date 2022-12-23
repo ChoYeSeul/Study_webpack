@@ -14,6 +14,16 @@ module.exports = {
   resolve: {
     extensions: [".jsx", ".js"],
   },
+  // 입력(** 중요)
+  entry:
+    // 아래 파일을 합치겠다. 지금은 client에서 wordRelay를 불러오기 때문에 client만 작성.
+    "./client",
+  // 출력(** 중요)
+  output: {
+    // path.join -> 경로 합치기
+    path: path.join(__dirname, "dist"),
+    filename: "app.js",
+  },
   module: {
     rules: [
       {
@@ -28,17 +38,5 @@ module.exports = {
         },
       },
     ],
-  },
-
-  // 입력(** 중요)
-  entry: {
-    // 아래 파일을 합치겠다. 지금은 client에서 wordRelay를 불러오기 때문에 client만 작성.
-    app: ["./client"],
-  },
-  // 출력(** 중요)
-  output: {
-    // path.join -> 경로 합치기
-    path: path.join(__dirname, "dist"),
-    filename: "app.js",
   },
 };
